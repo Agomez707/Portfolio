@@ -321,12 +321,28 @@
             <h2 class="fw-bold mb-4">¿Hablamos?</h2>
             <p class="text-secondary mb-5">Actualmente abierto a nuevas oportunidades en desarrollo .NET y proyectos de
                 infraestructura.</p>
-
-            <div class="d-flex justify-content-center gap-4 mb-5">
-                <a href="mailto" class="btn btn-outline-light btn-lg px-4">
-                    <i class="bi bi-envelope me-2"></i>Contacto
-                </a>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="https://formspree.io/f/xgorpyyb" method="POST" class="p-4 rounded border border-secondary shadow-sm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label small text-secondary">Nombre Completo</label>
+                        <input type="text" name="name" class="form-control bg-black text-white border-secondary" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label small text-secondary">Correo Electrónico</label>
+                        <input type="email" name="_replyto" class="form-control bg-black text-white border-secondary" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label small text-secondary">Mensaje</label>
+                        <textarea name="message" class="form-control bg-black text-white border-secondary" id="message" rows="4" required></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" value="Nuevo contacto desde Portfolio - Alfredo Gómez">
+                    
+                    <button type="submit" class="btn btn-primary w-100 fw-bold py-2">Enviar Mensaje</button>
+                </form>
+                
             </div>
+        </div>
         </div>
     </section>
 
