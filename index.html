@@ -14,24 +14,25 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark border-bottom border-secondary">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Alfredo Gómez</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Alfredo Gómez</a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
-                <a class="nav-link" href="#casosIt">Casos de Éxito</a>                
-                <a class="nav-link" href="#proyectos">Proyectos</a>
-                <a class="nav-link" href="#habilidades">Habilidades</a>
-                <a class="nav-link" href="#contacto">Contacto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                    <a class="nav-link" href="#casosIt">Casos de Éxito</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- Titulo -->
     <header class="hero-section text-center">
@@ -40,7 +41,8 @@
             <p class="lead text-secondary">Administrador de Sistemas & .NET Developer</p>
             <div class="mt-4">
                 <a href="#proyectos" class="btn btn-primary btn-lg px-4">Ver mis proyectos</a>
-                <a href="assets/Alfredo-Gomez-CV.pdf" class="btn btn-outline-light btn-lg px-4" download>Descargar CV</a>
+                <a href="assets/Alfredo_Gomez_CV.pdf class="btn btn-outline-light btn-lg px-4" download>Descargar
+                    CV</a>
             </div>
         </div>
     </header>
@@ -85,6 +87,7 @@
                             <h6 class="text-primary">Especialidad Dev</h6>
                             <ul class="list-unstyled text-secondary">
                                 <li><i class="bi bi-check2-circle text-primary"></i> .NET MVC / API</li>
+                                <li><i class="bi bi-check2-circle text-primary"></i> C# (C-Sharp)</li>
                                 <li><i class="bi bi-check2-circle text-primary"></i> SQL Server / EF Core</li>
                             </ul>
                         </div>
@@ -197,21 +200,6 @@
         <div class="container">
             <h2 class="text-center mb-5">Proyectos Destacados</h2>
             <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 project-card bg-dark">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary">Sistema de Encuestas</h5>
-                            <p class="card-text text-secondary">Web desarrollada con ASP.NET MVC para gestión de
-                                satisfacción de clientes.</p>
-                            <span class="badge bg-secondary">.NET 8</span>
-                            <span class="badge bg-secondary">C#</span>
-                            <span class="badge bg-secondary">SQL Server</span>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-sm btn-outline-primary">Ver Código</a>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-md-4">
                     <div class="card h-100 project-card bg-dark text-white" style="cursor: pointer;"
@@ -295,7 +283,7 @@
                         <span class="badge border border-secondary p-2">Microsoft 365 (Exchange, SharePoint,
                             Teams)</span>
                         <span class="badge border border-secondary p-2">Virtualización (Hyper-V & VMware)</span>
-                        <span class="badge border border-secondary p-2">Switches Cisco (VLANs, Trunking)</span>
+                        <span class="badge border border-secondary p-2">Switches Cisco</span>
                         <span class="badge border border-secondary p-2">Active Directory & Azure AD</span>
                         <span class="badge border border-secondary p-2">Troubleshooting Avanzado</span>
                     </div>
@@ -306,7 +294,7 @@
                         <span class="badge border border-success text-success p-2">.NET 8 / MVC</span>
                         <span class="badge border border-success text-success p-2">C# (C-Sharp)</span>
                         <span class="badge border border-success text-success p-2">Entity Framework Core</span>
-                        <span class="badge border border-success text-success p-2">SQL Server / T-SQL</span>
+                        <span class="badge border border-success text-success p-2">SQL Server</span>
                         <span class="badge border border-success text-success p-2">PowerApps</span>
                         <span class="badge border border-success text-success p-2">Bootstrap 5 / HTML5 / CSS3</span>
                     </div>
@@ -321,28 +309,32 @@
             <h2 class="fw-bold mb-4">¿Hablamos?</h2>
             <p class="text-secondary mb-5">Actualmente abierto a nuevas oportunidades en desarrollo .NET y proyectos de
                 infraestructura.</p>
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <form action="https://formspree.io/f/xgorpyyb" method="POST" class="p-4 rounded border border-secondary shadow-sm">
-                    <div class="mb-3">
-                        <label for="name" class="form-label small text-secondary">Nombre Completo</label>
-                        <input type="text" name="name" class="form-control bg-black text-white border-secondary" id="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label small text-secondary">Correo Electrónico</label>
-                        <input type="email" name="_replyto" class="form-control bg-black text-white border-secondary" id="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label small text-secondary">Mensaje</label>
-                        <textarea name="message" class="form-control bg-black text-white border-secondary" id="message" rows="4" required></textarea>
-                    </div>
-                    <input type="hidden" name="_subject" value="Nuevo contacto desde Portfolio - Alfredo Gómez">
-                    
-                    <button type="submit" class="btn btn-primary w-100 fw-bold py-2">Enviar Mensaje</button>
-                </form>
-                
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/xgorpyyb" method="POST"
+                        class="p-4 rounded border border-secondary shadow-sm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label small text-secondary">Nombre Completo</label>
+                            <input type="text" name="name" class="form-control bg-black text-white border-secondary"
+                                id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label small text-secondary">Correo Electrónico</label>
+                            <input type="email" name="_replyto"
+                                class="form-control bg-black text-white border-secondary" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label small text-secondary">Mensaje</label>
+                            <textarea name="message" class="form-control bg-black text-white border-secondary"
+                                id="message" rows="4" required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="Nuevo contacto desde Portfolio - Alfredo Gómez">
+
+                        <button type="submit" class="btn btn-primary w-100 fw-bold py-2">Enviar Mensaje</button>
+                    </form>
+
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -375,22 +367,38 @@
                     <div class="row">
                         <div class="col-md-6">
                             <img src="img/puma-project.jpg" alt="Soporte IT" class="img-fluid rounded mb-3">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded border border-primary border-opacity-25">
+                                <h6 class="text-primary small fw-bold">TECNOLOGÍAS APLICADAS:</h6>
+                                <ul class="list-unstyled mb-0" style="font-size: 0.85rem;">
+                                    <li><i class="bi bi-windows me-2"></i>Windows Server</li>
+                                    <li><i class="bi bi-cloud-check me-2"></i>Office 365</li>
+                                    <li><i class="bi bi-hdd-network me-2"></i>Soporte Remoto</li>
+                                    <li><i class="bi bi-journal-text me-2"></i>Documentación Técnica</li>
+                                    <li><i class="bi bi-journal-text me-2"></i>Networking</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <h6>Detalles Técnicos</h6>
+                            <h6 class="fw-bold text-white">Migración y Despliegue de Infraestructura</h6>
                             <p class="small text-secondary">
-                                En este rol para <strong>Interconnect S.A.</strong>, lidero el soporte técnico remoto y
-                                en sitio
-                                para estaciones de servicio de PUMA Energy.
+                                Lideré un proyecto crítico de renovación tecnológica para PUMA Energy, optimizando los
+                                tiempos de implementación mediante técnicas de automatización de despliegue.
                             </p>
+                            <h6 class="fw-bold mt-4 text-primary"><i class="bi bi-rocket-takeoff me-2"></i>Hitos del
+                                Proyecto:</h6>
                             <ul class="small text-secondary">
-                                <li>Configuración de estaciones, computadoras y servidores con <strong>Windows Server
-                                        2022</strong>.
-                                </li>
-                                <li>Administración y troubleshooting de <strong>Switches Cisco</strong>.</li>
-                                <li>Ejecución de backups críticos para asegurar la continuidad del negocio.</li>
-                                <li>Gestión y resolución de incidentes de hardware y software para estaciones de
-                                    trabajo, bajo metodología de ticketing.</li>
+                                <li><strong>Despliegue Masivo (WDS):</strong> Instalación y configuración de
+                                    <strong>Windows 10 en 140 Mini PCs</strong> de forma simultánea utilizando
+                                    <strong>Windows Deployment Services (WDS)</strong> a través de la red, reduciendo
+                                    drásticamente los tiempos de carga manual.</li>
+                                <li><strong>Configuración de Servidores:</strong> Preparación integral de <strong>12
+                                        servidores</strong> bajo estándares corporativos para servicios críticos de
+                                    estaciones.</li>
+                                <li><strong>Implementación en Sitio:</strong> Instalación y puesta en marcha de la
+                                    infraestructura en <strong>10 estaciones de servicio</strong> distribuidas
+                                    geográficamente.</li>
+                                <li><strong>Soporte Continuo:</strong> Responsable del mantenimiento preventivo y
+                                    correctivo actual, asegurando la alta disponibilidad de los sistemas.</li>
                             </ul>
                         </div>
                     </div>
@@ -587,10 +595,8 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-5 text-center">
-                            <div class="p-4 bg-secondary bg-opacity-10 rounded border border-secondary mb-3">
-                                <i class="bi bi-window-stack display-1 text-primary"></i>
-                                <p class="mt-2 small fw-bold">Desktop App .NET</p>
-                            </div>
+                            <img src="img/Dividir-recibos.jpg" alt="Dividir Recibos de Sueldo"
+                                class="img-fluid rounded mb-3 border border-secondary shadow">
                             <div class="alert alert-success py-2">
                                 <small><strong>Impacto:</strong> De 200 procesos manuales a 1 click automático.</small>
                             </div>
